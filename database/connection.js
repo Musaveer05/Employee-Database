@@ -2,7 +2,7 @@ const mysql = require('mysql');
 // const dotenv = require('dotenv');
 
 const connection = mysql.createConnection({
-    host: 'Your hoster server',
+    host: 'Your hosted server if using zapier or localhost (depends)',
     user: 'your user',
     password: 'your password',
     database: 'your database',
